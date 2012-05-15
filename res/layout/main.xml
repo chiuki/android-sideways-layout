@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal" >
+  <com.sqisland.android.sideways_layout.SidewaysLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:padding="5dp"
+      android:textColor="#f0f12b"
+      android:background="#3ba249"
+      android:text="@string/good_night_moon" />
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingRight="20dp"
+      android:textColor="#fff"
+      android:background="#f4783a"
+      android:textStyle="bold"
+      android:text="@string/green_eggs_and_ham" />
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingLeft="5dp"
+      android:paddingRight="30dp"
+      android:textColor="#490000"
+      android:background="#fdffef"
+      android:text="@string/matilda" />
+  </com.sqisland.android.sideways_layout.SidewaysLayout>
+  <TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:textSize="28sp"
+    android:text="@string/welcome_to_my_library" />
+</LinearLayout>
